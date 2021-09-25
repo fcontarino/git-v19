@@ -54,6 +54,14 @@
             <p>
                 Es el area donde se almacenan las confirmaciones de los cambios realizados en archivos de tipo BLOB (Binary Large Object File), se utilizan como puntos de referencia a los que podemos volver siempre y cuando indiquemos a git cual es el numero que HASH o posicion que queremos visualizar.
             </p>
+            <ul class="commands">
+                <li><strong>git commit</strong> abre el editor para realizar la confirmacion de cambios</li>
+                <li><strong>git log</strong> muestra el historial de confirmacion de manera descendente</li> 
+                <li><strong>git blame &lt;file></strong> muestra el autor, numero de HASH, fecha y hora en la que se modifico cada linea del archivo</li>
+                <li><strong>git checkout &lt;ref></strong> mueve el apuntador a la posicion seleccionada</li>
+                <li><strong>git fetch &lt;remote></strong> captura el histrial de cambios del repositorio remoto</li>
+                <li><strong>git push &lt;remote> &lt;branch</strong> sube los cambios de la rama seleccionada al repositorio remoto</li>
+            </ul>
         </article>
     </section>
 </body>
