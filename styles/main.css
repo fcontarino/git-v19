@@ -14,6 +14,9 @@
         }
     /*Navegacion*/
         nav{
+            position: sticky;
+            top: 0;
+            z-index: 2;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -49,3 +52,20 @@
         .menu a:hover{
             background-color: #3338;
         }
+/*Pantallas Medianas - Tablets*/
+    @media screen and (min-width:768px) {
+        nav .btn{
+            display: none;
+        }
+        .menu{
+            display: flex;
+            width: auto;
+            max-height: 600px;
+        }
+    }
+/*Pantallas Grandes - Desktop*/
+    @media screen and (min-width: 992px) {
+        nav{
+            justify-content: space-around;
+        }
+    }
