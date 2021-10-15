@@ -1,0 +1,12 @@
+# carpetas
+temp/
+tmp/
+node_modules/
+docs/
+
+# archivos
+*.temp
+*.tmp
+*.txt
+*.swp
+*.log*
