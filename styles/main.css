@@ -74,6 +74,17 @@
             border-radius: .25rem;
             padding: 1rem;
             box-shadow: 0 0 .5rem #333;
+            background-color: #ddd;
+        }
+        h2{
+            margin: -1rem -1rem 1rem;
+            border-radius: .25rem .25rem 0 0;
+            padding: 1rem;
+            color: #eee;
+            background-color: #333;
+        }
+        h3{
+            border-bottom: .1rem solid #333;
         }
         .commands{
             margin: 1rem;
