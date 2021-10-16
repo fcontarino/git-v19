@@ -73,10 +73,22 @@
     /*Pie de pagina*/
         .colabs{
             margin: 1rem auto;
+            border-collapse: collapse;
+            color: #eee;
+            background: linear-gradient(#c36, #63c);
+            text-align: left;
         }
         .colabs caption{
             border-radius: .25rem .25rem 0 0;
+            background-color: #c36;
         }
+        .colabs caption,
+        .colabs th,
+        .colabs td{
+            padding: .25rem .5rem;
+        }
+        .colabs tbody tr:nth-child(odd){ background-color: #9998;}
+        .colabs tbody tr:nth-child(even){background-color: #6668;}
 /*Pantallas Medianas - Tablets*/
     @media screen and (min-width:768px) {
         nav .btn{
