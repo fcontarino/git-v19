@@ -69,7 +69,20 @@
             font-size: calc(2vw + .8rem);
         }
     /*Contenido principal*/
-
+        section{
+            margin: 1rem;
+            border-radius: .25rem;
+            padding: 1rem;
+            box-shadow: 0 0 .5rem #333;
+        }
+        .commands{
+            margin: 1rem;
+            border-left: .25rem solid #c36;
+            padding: 1rem;
+            background-color: #ccc;
+            line-height: 1.5rem;
+            list-style: none;
+        }
     /*Pie de pagina*/
         #footer{
             position: relative;
@@ -126,6 +139,13 @@
         }
         .colabs tbody tr:nth-child(odd){ background-color: #9998;}
         .colabs tbody tr:nth-child(even){background-color: #6668;}
+/*Pantallas Pequeñas - Smartphones*/
+    @media screen and (min-width:576px){
+        section{
+            margin: 1rem auto;
+            max-width: 540px;
+        }
+    }
 /*Pantallas Medianas - Tablets*/
     @media screen and (min-width:768px) {
         nav .btn{
@@ -136,10 +156,16 @@
             width: auto;
             max-height: 600px;
         }
+        section{
+            max-width: 720px;
+        }
     }
 /*Pantallas Grandes - Desktop*/
     @media screen and (min-width: 992px) {
         nav{
             justify-content: space-around;
+        }
+        section{
+            max-width: 960px;
         }
     }
