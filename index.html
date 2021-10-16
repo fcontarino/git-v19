@@ -95,6 +95,14 @@
             <p>
                 Apuntador estatico que se correponde con el commit donde haya sido aplicado, se utiliza principalmente para el versionado de nuestro proyecto y se utiliza un formato similar al siguiente <em>vn.n.n</em> para indicar version principal, subversion o compilacion y correcciones o revisiones.
             </p>
+            <ul class="commands">
+                <li><strong>git tag -l</strong> muestra las etiquetas creadas en el respositorio</li>
+                <li><strong>git tag &lt;name></strong> asigna al commit actual una etiqueta.</li>
+                <li><strong>git tag &lt;new> &lt;old></strong> asigna una nueva etiqueta donde se encuentra la seleccionada.</li>
+                <li><strong>git tag -d &lt;tag></strong> elimina la etiqueta especificada.</li>
+                <li><strong>git push --tags</strong> agrega al repositorio remoto las etiquetas locales.</li>
+                <li><strong>git push -d &lt;remote> &lt;tag></strong> elimina del respositorio remoto la etiqueta seleccionada.</li>
+            </ul>
         </article>
         <article>
             <h3>STASH</h3>
