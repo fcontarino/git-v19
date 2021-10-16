@@ -56,6 +56,27 @@
         .menu a:hover{
             background-color: #3338;
         }
+    /*Cabecera*/
+        header{
+            height: 100vh;
+            max-height: 640px;
+            display:grid;
+            text-align: center;
+            align-content: center;
+            color:#eee;
+            background-color: #333;
+            text-shadow: 0 0 2vw #eee;
+            font-size: calc(2vw + .8rem);
+        }
+    /*Contenido principal*/
+
+    /*Pie de pagina*/
+        .colabs{
+            margin: 1rem auto;
+        }
+        .colabs caption{
+            border-radius: .25rem .25rem 0 0;
+        }
 /*Pantallas Medianas - Tablets*/
     @media screen and (min-width:768px) {
         nav .btn{
