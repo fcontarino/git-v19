@@ -73,9 +73,17 @@
     /*Pie de pagina*/
         .colabs{
             margin: 1rem auto;
+            border-collapse: collapse;
+        }
+        .colabs caption,
+        .colabs th,
+        .colabs td{
+            padding: 1rem;
+            border: .2rem solid #c36;
         }
         .colabs caption{
             border-radius: .25rem .25rem 0 0;
+            border-bottom: none;
         }
 /*Pantallas Medianas - Tablets*/
     @media screen and (min-width:768px) {
