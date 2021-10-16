@@ -103,6 +103,21 @@
             </p>
         </article>
     </section>
+    <section>
+        <h2>Control de Cambios</h2>
+        <article>
+            <h3>RESET</h3>
+            <p>
+                Este comando elimina los commits intermedios desde el ultimo hasta el que hayamos utilizado como referencia, es bastante practico si aun no subimos los cambios al repositorio remoto y debemos deshacer algunas confirmaciones o simplemente queremos reaplicar los commits de manera diferente.
+            </p>
+            <ul class="commands">
+                <li><strong>git reset &lt;ref></strong> elimina los commits, no afecta al INDEX ni al Working Directory.</li>
+                <li><strong>git reset --mixed &lt;ref></strong> elimina los commits y reestablece el INDEX.</li>
+                <li><strong>git reset --hard &lt;ref></strong> reestablece el proyecto hasta el punto seleccionado.</li>
+                <li><strong>git reset &lt;ref> -- &lt;file> </strong> reestablece un archivo a como se encontraba en el commit seleccionado.</li>
+            </ul>
+        </article>
+    </section>
     <footer id="footer">
         <!-- mapa de contacto -->
         <p>Chicos si tienen dudas No olviden de contactar al Profe </p>
