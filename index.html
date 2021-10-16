@@ -117,6 +117,17 @@
                 <li><strong>git reset &lt;ref> -- &lt;file> </strong> reestablece un archivo a como se encontraba en el commit seleccionado.</li>
             </ul>
         </article>
+        <article>
+            <h3>REVERT</h3>
+            <p>
+                Este comando genera un commit que realiza las operaciones contrarias a las del commit referenciado, es ideal cuando necesitamos revertir un cambio que ya fue subido al repositorio remoto, especialmente si el mismo fue realizado hace varias confirmaciones.
+            </p>
+            <ul class="commands">
+                <li><strong>git revert &lt;ref></strong> realiza un commit con las operaciones inversas del commit referenciado.</li>
+                <li><strong>git revert --abort</strong> cancela el proceso de reversion en caso de que se haya detectado un conflicto.</li>
+                <li><strong>git revert --continue</strong> una vez resuelto el conflicto, continua con el proceso de reversion.</li>
+            </ul>
+        </article>
     </section>
     <footer id="footer">
         <!-- mapa de contacto -->
